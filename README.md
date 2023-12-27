@@ -1,5 +1,5 @@
 # Event Score Generator
-*** a python script / command line toy which generates instructions for situation performance art (an event score) based on user input ***
+***a python script / command line toy which generates instructions for situation performance art (an event score) based on user input***
 ## What is an event score?
 Alison Knowles, who was a pioneer of practice-based artistic movement Fluxus, defines an event score as "a one or two line recipe for action". Essentially these are short instructions for performance art which is inspired by or directly amplifies activity & behavior from everyday life. 
 
@@ -17,19 +17,31 @@ python -m spacy download en_core_web_md
 ```
 python esg.py NOUN
 ```
-for example:
-```
-python esg.py fire
-```
-would give you an output tailored to the word house like so:
-![screenshot of command line output text generation](https://cdn.discordapp.com/attachments/1083420545246306365/1189406759085948989/Screenshot_from_2023-12-26_22-16-37.png?ex=659e0c5d&is=658b975d&hm=eaa733290534a6dae58ba6c61f6d55005a3238709b08b83c543581ad8f9902c8&)
+  for example:
+  ```
+  python esg.py fire
+  ```
+  would give you an output tailored to the word house like so:
+  ![screenshot of command line output text generation](https://cdn.discordapp.com/attachments/1083420545246306365/1189406759085948989/Screenshot_from_2023-12-26_22-16-37.png?ex=659e0c5d&is=658b975d&hm=eaa733290534a6dae58ba6c61f6d55005a3238709b08b83c543581ad8f9902c8&)
 
-or 
-```
-python esg.py surprise
-```
-would give you an output tailored to a random noun like this:
-![screenshot of command line output text generation]()
+  or 
+  ```
+  python esg.py surprise
+  ```
+  would give you an output tailored to a random noun like this:
+  ```
+  ***Morning for Duty***
+ 
+  Morning: Yield of most duty
+   
+  Late Morning: Be that morning on morning
+   
+  Afternoon: Know duties
+   
+  Evening: Reach about two hours with morning
+   
+  Night: Be for eight hours in less duty
+  ```
 
 ## Next steps:
 - address speed / try to lighten the load with a smaller spaCY module or less source texts
