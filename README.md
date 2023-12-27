@@ -22,6 +22,19 @@ python esg.py NOUN
   python esg.py fire
   ```
   would give you an output tailored to the word house like so:
+
+  > **Morning for Duty**
+ 
+  > Morning: Yield of most duty
+ 
+  > Late Morning: Be that morning on morning
+ 
+  > Afternoon: Know duties
+ 
+  > Evening: Reach about two hours with morning
+ 
+  > Night: Be for eight hours in less duty
+
   
   ![screenshot of command line output text generation](https://cdn.discordapp.com/attachments/1083420545246306365/1189406759085948989/Screenshot_from_2023-12-26_22-16-37.png?ex=659e0c5d&is=658b975d&hm=eaa733290534a6dae58ba6c61f6d55005a3238709b08b83c543581ad8f9902c8&)
 
