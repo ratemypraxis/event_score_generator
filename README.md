@@ -18,33 +18,45 @@ python -m spacy download en_core_web_md
 python esg.py NOUN
 ```
   for example:
+  
   ```
   python esg.py fire
   ```
+
   would give you an output tailored to the word house like so:
 
-  > **Morning for Duty**
- 
-  > Morning: Yield of most duty
- 
-  > Late Morning: Be that morning on morning
- 
-  > Afternoon: Know duties
- 
-  > Evening: Reach about two hours with morning
- 
-  > Night: Be for eight hours in less duty
+  > **Grasp in Fire**
+  >
+  > Dawn: Be in full fire
+  >
+  > Late Morning: Know twelve o’clock with grasp
+  >
+  > Afternoon: Take fires
+  >
+  > Evening: Determine six thirty pm of grasp
+  >
+  > Night: Remembrance for a few paltry hours in longer fire
 
-  
-  ![screenshot of command line output text generation](https://cdn.discordapp.com/attachments/1083420545246306365/1189406759085948989/Screenshot_from_2023-12-26_22-16-37.png?ex=659e0c5d&is=658b975d&hm=eaa733290534a6dae58ba6c61f6d55005a3238709b08b83c543581ad8f9902c8&)
 
   or 
+  
   ```
   python esg.py surprise
   ```
+
   would give you an output tailored to a random noun like this:
 
-  ![screenshot of command line output text generation](https://media.discordapp.net/attachments/1083420545246306365/1189407921302409298/Screenshot_from_2023-12-26_22-21-19.png?ex=659e0d72&is=658b9872&hm=5afe8167b5913df50048409b17b6b449c195f4daa3dac9dc8cb3ed65709541ae&=&format=webp&quality=lossless&width=1482&height=851)
+  > **Morning for Duty**
+  > 
+  > Morning: Yield of most duty
+  >
+  > Late Morning: Be that morning on morning
+  >
+  > Afternoon: Know duties
+  >
+  > Evening: Reach about two hours with morning
+  >
+  > Night: Be for eight hours in less duty
 
 ## Next steps:
 - address speed / try to lighten the load with a smaller spaCY module or less source texts
