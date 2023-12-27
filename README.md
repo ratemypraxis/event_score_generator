@@ -1,5 +1,6 @@
 # Event Score Generator
-***a python script / command line toy which generates instructions for situation performance art (an event score) based on user input***
+***A python script / command line toy which generates instructions for situation performance art (an event score) based on user input. Originally made with Junyper Notebook during Allison Parrish's course titled **Reading & Writing Electronic Text** in Spring 2021.***
+
 ## What is an event score?
 Alison Knowles, who was a pioneer of practice-based artistic movement Fluxus, defines an event score as "a one or two line recipe for action". Essentially these are short instructions for performance art which is inspired by or directly amplifies activity & behavior from everyday life. 
 
@@ -61,6 +62,6 @@ python esg.py NOUN
 ## Next steps:
 - address speed / try to lighten the load with a smaller spaCY module or less source texts
 - play with structre and randomness a bit with the tracery grammer + other spaCy tokens
-- implement flask to push this to web
+- implement flask to push this to web following [this tutorial](https://rwet.decontextualize.com/book/web-applications/).
 - create a requirements.txt with dependencies
 - maaaybe experiment with a conda environment
